@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="stAc">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginTop">23dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginBottom">18dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/Blue</item>
+        <item name="android:textSize">29sp</item>
+    </style>
+
+    <style name="stNegate">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">23dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginBottom">18dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/Blue</item>
+        <item name="android:textSize">29sp</item>
+    </style>
+
+    <style name="stPercent">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">23dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginBottom">18dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/Blue</item>
+        <item name="android:textSize">29sp</item>
+    </style>
+
+    <style name="stDivision">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">23dp</item>
+        <item name="android:layout_marginEnd">22dp</item>
+        <item name="android:layout_marginBottom">18dp</item>
+        <item name="android:backgroundTint">@color/bleu</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">43sp</item>
+    </style>
+
+    <style name="st0">
+        <item name="android:layout_width">175dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginBottom">62dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/Blue</item>
+        <item name="android:textSize">29sp</item>
+    </style>
+
+    <style name="stComma">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginBottom">62dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">#A1887F</item>
+        <item name="android:textSize">29sp</item>
+    </style>
+
+    <style name="stEquals">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">22dp</item>
+        <item name="android:layout_marginBottom">62dp</item>
+        <item name="android:backgroundTint">@color/bleu</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">29sp</item>
+    </style>
+
+    <style name="stLogo">
+        <item name="android:layout_width">173dp</item>
+        <item name="android:layout_height">33dp</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:fontFamily">@font/musefers</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="stScreen">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginBottom">548dp</item>
+        <item name="android:background">@drawable/rectangle</item>
+        <item name="android:gravity">top</item>
+        <item name="android:paddingStart">5dp</item>
+    </style>
+
+    <style name="stEight">
+        <item name="android:layout_width">318dp</item>
+        <item name="android:layout_height">41dp</item>
+        <item name="android:layout_marginStart">23dp</item>
+        <item name="android:layout_marginTop">23dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:background">@drawable/backgraund</item>
+        <item name="android:fontFamily">@font/ds</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="stImEight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:contentDescription">@string/todo</item>
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:paddingEnd">10dp</item>
+    </style>
+
+    <style name="st8" parent="@style/stNegate">
+
+    </style>
+
+    <style name="stPlus" parent="@style/stDivision">
+
+    </style>
+
+
+    <style name="stMultiplinie" parent="@style/stDivision">
+
+    </style>
+
+    <style name="stMinus" parent="@style/stDivision">
+
+    </style>
+
+    <style name="st4" parent="@style/stAc">
+
+    </style>
+
+    <style name="st5" parent="@style/stNegate">
+
+    </style>
+
+    <style name="st6" parent="@style/stPercent">
+
+    </style>
+
+    <style name="st7" parent="@style/stAc">
+
+    </style>
+
+    <style name="st9" parent="@style/stPercent">
+
+    </style>
+
+    <style name="st1" parent="@style/stAc">
+
+    </style>
+
+    <style name="st2" parent="@style/stNegate">
+
+    </style>
+
+    <style name="st3" parent="@style/stPercent">
+
+    </style>
+
+</resources>
